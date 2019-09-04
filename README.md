@@ -1,15 +1,20 @@
 # ROUGE
 Application of ROUGE in Chinese Corpus
-# Usage
-(1). python 
+# Usage 
+1. Constructing vocabulary and converting Chinese Characters into Index Representation.
+```
+python word2id.py
+```
 
-Constructing vocabulary and converting Chinese Characters into Index Representation.
+2. Reorganize the file and save each sentence as a file.
+```
+python file.py
+```
 
-(2). python
+3. Calculated ROUGE scores.
+```
+python rouge.py
+```
 
-Reorganize the file and save each sentence as a file.
 
-(3). python
-
-Calculated ROUGE scores.
 
